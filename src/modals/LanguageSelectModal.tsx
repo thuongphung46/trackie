@@ -49,12 +49,12 @@ function LanguageSelectModal(props: LanguageSelectionModalProp) {
           }
         />
         <RadioButton
-          name={language.tr}
+          name={language.vn}
           onPress={() =>
-            setSelectedOption({language: LANGUAGE.TURKISH, isDevice: false})
+            setSelectedOption({language: LANGUAGE.VIETNAM, isDevice: false})
           }
           isEnabled={
-            selectedOption.language === LANGUAGE.TURKISH &&
+            selectedOption.language === LANGUAGE.VIETNAM &&
             !selectedOption.isDevice
           }
         />
