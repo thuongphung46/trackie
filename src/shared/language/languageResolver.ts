@@ -1,7 +1,7 @@
-import LanguageInterface from './languageInterface';
+import LanguageInterface from './LanguageInterface';
 import {LANGUAGE} from 'src/shared/Constant';
 import {en} from './en';
-import {tr} from './tr';
+import {vn} from './vn';
 
 interface StringToObject {
   [key: string]: LanguageInterface;
@@ -9,7 +9,7 @@ interface StringToObject {
 
 const languageJson: StringToObject = {
   [LANGUAGE.ENGLISH]: en,
-  [LANGUAGE.TURKISH]: tr,
+  [LANGUAGE.VIETNAM]: vn,
 };
 
 export default languageJson;

@@ -38,7 +38,7 @@ interface LanguageInterface {
   dark_theme: string;
   language: string;
   en: string;
-  tr: string;
+  vn: string;
   clear_all_data: string;
 
   // Author Detail

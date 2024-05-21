@@ -14,7 +14,8 @@ export const THEME = {
 
 export const LANGUAGE = {
   ENGLISH: 'en',
-  TURKISH: 'tr',
+  // TURKISH: 'tr',
+  VIETNAM: 'vn',
 };
 
 export const MAX_SEARCH_RECENT_COUNT = 5;

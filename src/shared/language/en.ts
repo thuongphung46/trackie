@@ -1,4 +1,4 @@
-import LanguageInterface from './languageInterface';
+import LanguageInterface from './LanguageInterface';
 
 export const en: LanguageInterface = {
   // General
@@ -42,7 +42,7 @@ export const en: LanguageInterface = {
   dark_theme: 'Dark theme',
   language: 'Language',
   en: 'English',
-  tr: 'Türkçe',
+  vn: 'Vietnamese',
   clear_all_data: 'Clear all data',
 
   // Author Detail

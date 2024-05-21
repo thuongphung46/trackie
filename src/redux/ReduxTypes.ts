@@ -1,4 +1,4 @@
-import LanguageInterface from 'src/shared/language/languageInterface';
+import LanguageInterface from 'src/shared/language/LanguageInterface';
 import {UserSchema} from 'src/data/local/schema/UserSchema';
 import {ThemeInterface} from 'src/shared/theme';
 import {
